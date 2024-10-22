@@ -201,3 +201,14 @@ footer p {
         left: -50px;
     }
 }
+
+#sobre {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y la imagen */
+}
+
+#sobre img {
+    margin-left: 20px; /* Espacio entre el texto y la imagen */
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
