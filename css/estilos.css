@@ -84,7 +84,7 @@ footer {
     width: 100%;
 }
 
-/* Links en pie de página */
+
 footer p {
     margin: 0;
 }
@@ -173,6 +173,27 @@ footer p {
     color: #00ff99;
     margin-top: 0;
 }
+.aplicacion {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.aplicacion h3 {
+    color: #baeecb;
+}
+.innovacion {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.innovacion h3 {
+    color: #baeecb;
+}
+
 
 /* Estilo responsivo */
 @media (max-width: 768px) {
