@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../images/fondo.png'); /* Ruta de la imagen generada */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-item a {
+    color: #00ff99;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.navbar-item a:hover {
+    color: #1e90ff; /* Efecto al pasar el cursor */
+}
+
+/* Secciones */
+div {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+h2 {
+    color: #00ff99;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #f4f4f9;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Imágenes */
+img {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    border: 3px solid #00ff99;
+}
+
+/* Pie de página */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f4f4f9;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links en pie de página */
+footer p {
+    margin: 0;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .navbar-item {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 30px;
+        max-width: 90%;
+    }
+
+    img {
+        width: 90%;
+    }
+}
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #00ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1em;
+}
+
+.social-button:hover {
+    background-color: #71a9e2a1; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilo del ícono */
+.social-icon {
+    width: 20px; /* Tamaño del ícono */
+    margin-right: 10px;
+}
