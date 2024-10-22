@@ -41,7 +41,7 @@ body {
     color: #1e90ff; /* Efecto al pasar el cursor */
 }
 
-/* Secciones */
+
 div {
     padding: 50px;
     text-align: center;
@@ -70,7 +70,7 @@ img {
     margin: 20px auto;
     display: block;
     border-radius: 10px;
-    border: 3px solid #00ff99;
+    border: 3px solid #000000;
 }
 
 /* Pie de página */
@@ -130,4 +130,53 @@ footer p {
 .social-icon {
     width: 20px; /* Tamaño del ícono */
     margin-right: 10px;
+}
+/* Línea de tiempo */
+#timeline {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 80%;
+    position: relative;
+}
+
+.timeline-container {
+    position: relative;
+    padding: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px;
+    border-left: 3px solid #00ff99;
+    margin: 20px 0;
+}
+
+.timeline-date {
+    position: absolute;
+    left: -70px;
+    background-color: #00ff99;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.timeline-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.timeline-content h3 {
+    color: #00ff99;
+    margin-top: 0;
+}
+
+/* Estilo responsivo */
+@media (max-width: 768px) {
+    .timeline-date {
+        left: -50px;
+    }
 }
